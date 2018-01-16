@@ -13,7 +13,7 @@ namespace Geometri
         //2. Implementering av metoden Area(), som alltså ska beräkna figurens area
 
         //-----------------Din kod här!---------------------------
-
+        
 
 
 
