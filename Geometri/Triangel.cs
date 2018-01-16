@@ -14,7 +14,21 @@ namespace Geometri
 
         //-----------------Din kod här!---------------------------
         
+        //Konstruktor
+        public Triangel(double sidlängd)
+        {
+            this.sidlängd = sidlängd;
+            antalSidor = 3;
+        }
 
+        public override double Area()
+        {
+            //beräknar arean
+            double area = sidlängd * sidlängd * Math.Sqrt(3) / 4;
+
+            //returnerar arean
+            return area;
+        }
 
 
 
